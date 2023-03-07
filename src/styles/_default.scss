@@ -18,3 +18,39 @@ body {
 .container {
   @include container();
 }
+
+.title {
+  padding: $p-2;
+
+  font-size: $font-48;
+  font-weight: $font-w-900;
+
+  text-align: center;
+  letter-spacing: .2rem;
+  line-height: 55px;
+  cursor: pointer;
+
+  color: $color-green;
+  
+  &-section {
+    padding: $p-1-3;
+
+    line-height: 30px;
+    font-size: $font-24;
+    text-align: center;
+    color: $color-green;
+
+  }
+
+  &-description {
+    padding: 0 $p-0-5;
+
+    font-size: $font-12;
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 1.3;
+
+    color: $color-blue;
+
+  }
+}
