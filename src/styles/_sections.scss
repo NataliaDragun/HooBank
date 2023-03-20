@@ -48,6 +48,16 @@
       z-index: 2;
     }
   }
+
+  &-6 {
+    .title-description {
+      position: absolute;
+      left: 20rem;
+      width: 100vw;
+
+      transform: rotate(-90deg);
+    }
+  }
 }
 
 
